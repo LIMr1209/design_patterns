@@ -17,7 +17,8 @@ in several directions, forming a `tree of responsibility`.
 *TL;DR
 Allow a request to pass down a chain of receivers until it is handled.
 """
-
+# 对象行为型模式
+# 职责链
 import abc
 
 

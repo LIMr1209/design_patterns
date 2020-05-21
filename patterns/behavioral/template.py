@@ -8,7 +8,8 @@ steps to subclasses.
 *Examples in Python ecosystem:
 Django class based views: https://docs.djangoproject.com/en/2.1/topics/class-based-views/
 """
-
+# 类行为型模式
+# 模板方法
 
 def get_text():
     return "plain-text"

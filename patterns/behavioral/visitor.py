@@ -14,7 +14,8 @@ Brian Jones, David Beazley "Python Cookbook" (2013):
 which is then being used e.g. in tools like `pyflakes`.
 - `Black` formatter tool implements it's own: https://github.com/ambv/black/blob/master/black.py#L718
 """
-
+# 对象行为型模式
+# 访问者
 
 class Node:
     pass
@@ -69,5 +70,10 @@ def main():
 
 
 if __name__ == "__main__":
-    import doctest
-    doctest.testmod()
+    a, b, c = A(), B(), C()
+    visitor = Visitor()
+    visitor.visit(a)
+    visitor.visit(c)
+    visitor.visit(c)
+    # import doctest
+    # doctest.testmod()

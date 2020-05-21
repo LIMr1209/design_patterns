@@ -5,7 +5,8 @@ Implementation of the iterator pattern with a generator
 *TL;DR
 Traverses a container and accesses the container's elements.
 """
-
+# 对象行为型模式
+# 迭代器
 
 def count_to(count):
     """Counts by word numbers, up to a maximum of five"""

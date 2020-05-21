@@ -27,6 +27,8 @@ http://python-3-patterns-idioms-test.readthedocs.io/en/latest/ChangeInterface.ht
 *TL;DR
 Provides a simpler unified interface to a complex system.
 """
+# 对象结构性模式
+# 外观
 
 
 # Complex computer parts

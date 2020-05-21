@@ -25,7 +25,8 @@ https://infinitescript.com/2014/10/the-23-gang-of-three-design-patterns/
 *TL;DR
 Describes a group of objects that is treated as a single instance.
 """
-
+# 对象结构性模式
+# 组合
 
 class Graphic:
     def render(self):

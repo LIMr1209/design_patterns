@@ -15,7 +15,8 @@ Add functionality or logic (e.g. logging, caching, authorization) to a resource
 without changing its interface.
 """
 
-
+# 对象结构性模式
+# 代理
 class Subject:
     """
     As mentioned in the document, interfaces of both RealSubject and Proxy should

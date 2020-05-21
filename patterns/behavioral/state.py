@@ -7,7 +7,8 @@ http://ginstrom.com/scribbles/2007/10/08/design-patterns-python-style/
 Implements state as a derived class of the state pattern interface.
 Implements state transitions by invoking methods from the pattern's superclass.
 """
-
+#对象行为型模式
+#状态
 
 class State:
 

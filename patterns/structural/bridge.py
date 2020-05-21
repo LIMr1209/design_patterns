@@ -5,7 +5,8 @@ http://en.wikibooks.org/wiki/Computer_Science_Design_Patterns/Bridge_Pattern#Pyt
 *TL;DR
 Decouples an abstraction from its implementation.
 """
-
+# 对象结构性模式
+# 桥接
 
 # ConcreteImplementor 1/2
 class DrawingAPI1:

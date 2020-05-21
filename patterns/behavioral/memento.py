@@ -4,7 +4,8 @@ http://code.activestate.com/recipes/413838-memento-closure/
 *TL;DR
 Provides the ability to restore an object to its previous state.
 """
-
+# 对象行为型模式
+# 备忘录
 from copy import copy
 from copy import deepcopy
 

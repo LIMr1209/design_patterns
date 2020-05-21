@@ -6,7 +6,8 @@ Strategy lets the algorithm vary independently from clients that use it.
 *TL;DR
 Enables selecting an algorithm at runtime.
 """
-
+# 对象行为型模式
+# 策略
 
 class Order:
     def __init__(self, price, discount_strategy=None):

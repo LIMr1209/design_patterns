@@ -25,6 +25,8 @@ https://docs.python.org/3/library/sys.html#sys.intern
 Minimizes memory usage by sharing data with other similar objects.
 """
 
+# 对象结构性模式
+# 享元
 import weakref
 
 

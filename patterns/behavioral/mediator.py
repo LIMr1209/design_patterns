@@ -7,7 +7,8 @@ This reduces the dependencies between communicating objects, thereby reducing co
 *TL;DR
 Encapsulates how a set of objects interact.
 """
-
+# 对象行为型模式
+# 中介者
 
 class ChatRoom:
     """Mediator class"""

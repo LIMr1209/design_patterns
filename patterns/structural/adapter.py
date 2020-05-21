@@ -27,7 +27,8 @@ http://python-3-patterns-idioms-test.readthedocs.io/en/latest/ChangeInterface.ht
 *TL;DR
 Allows the interface of an existing class to be used as another interface.
 """
-
+# 类对象结构型模式
+# 适配器
 
 class Dog:
     def __init__(self):

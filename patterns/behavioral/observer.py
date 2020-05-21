@@ -8,7 +8,8 @@ Maintains a list of dependents and notifies them of any state changes.
 Django Signals: https://docs.djangoproject.com/en/2.1/topics/signals/
 Flask Signals: http://flask.pocoo.org/docs/1.0/signals/
 """
-
+# 对象行为型模式
+# 观察者
 
 class Subject:
     def __init__(self):

@@ -19,7 +19,8 @@ Object oriented implementation of callback functions.
 Django HttpRequest (without execute method):
 https://docs.djangoproject.com/en/2.1/ref/request-response/#httprequest-objects
 """
-
+# 对象行为7型模式
+# 命令7
 
 class HideFileCommand:
     """
